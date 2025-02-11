@@ -23,6 +23,18 @@ body
     font-weight: 400;
     font-style: normal;
 }
+h1
+{
+    font-size: 3.8rem;
+}
+h2
+{
+font-size: 2.8rem;
+}
+h3
+{
+    font-size: 1.8rem;
+}
 .titulo
 {
     text-align: center;
@@ -99,5 +111,22 @@ body
     background-repeat: no-repeat;
     background-size: cover;
     height: 410px;
-    padding: 20px;
+    position: relative;
+}
+.contenido-hero
+{
+    position: absolute;
+    background-color:rgba(0, 0, 0, .6);
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+.contenido-hero h2,
+.contenido-hero  p
+{
+    color: var(--blanco);
+
 }
