@@ -22,7 +22,7 @@
     <div class="nav-bg">
         <nav class="Navegacion_Inicial contenedor">
             <a href="#">inicio</a>
-            <a href="#">Sobre mi</a>
+            <a href="#">acerca de</a>
             <a href="#">Clientes</a>
             <a href="#">Contacto</a>
         </nav>
@@ -56,7 +56,7 @@
     <main class="contenedor sombra">
         <h2>Servicios</h2>
         <div class="servicios">
-            <section>
+            <section class="servicio">
                 <h3>Diseño Web</h3>
                 <div class="iconos">
                     <svg
@@ -78,7 +78,7 @@
                 </div>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, te!</p>
             </section>
-            < class="servicio">
+            <section class="servicio">
                 <h3>Aplicaciones Web</h3>
                 <div class="iconos">
                     <svg
@@ -142,25 +142,26 @@
         </div><!--cierre de la clase de servicios-->
     <section>
         <h2>Contacto</h2>
-        <form>
+        <form class="formulario">
             <fieldset>
                 <legend>Contactame llenado todos los campos</legend>
-
-                <div>
-                    <label> Nombre</label>
-                    <input type="text" placeholder="Nombre">
-                </div>
-                <div>
-                    <label>Telefono</label>
-                    <input type="tel" placeholder="Telefono">
-                </div>
-                <div>
-                    <label> Correo</label>
-                    <input type="email" placeholder="Correo electronico">
-                </div>
-                <div>
-                    <label> Mensaje</label>
-                    <textarea placeholder="Mensaje"></textarea>
+                <div class="contenedor-campos">
+                        <div class="campo">
+                            <label> Nombre</label>
+                            <input type="text" placeholder="Nombre">
+                        </div>
+                        <div class="campo">
+                            <label>Telefono</label>
+                            <input type="tel" placeholder="Telefono">
+                        </div>
+                        <div class="campo">
+                            <label> Correo</label>
+                            <input type="email" placeholder="Correo electronico">
+                        </div>
+                        <div class="campo">
+                            <label> Mensaje</label>
+                            <textarea placeholder="Mensaje"></textarea>
+                        </div>
                 </div>
                 <div>
                     <input class="boton" type="submit" value="enviar">
